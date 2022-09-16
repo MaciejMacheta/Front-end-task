@@ -1,0 +1,303 @@
+
+
+html, body
+{
+    background-image: url("images/background-desktop2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+}
+
+div#god
+{
+    height: 100%;
+    width: 22%; 
+    margin: 0;
+    background-color: rgba(235, 233, 233, 0.877);
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    
+
+}
+
+div.title
+{   
+    height: 5%;
+}
+
+div.user
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img.icon
+{
+    position: absolute;
+    width:16%;
+    padding: 7%;
+    padding-left: 9%;
+    padding-top: 50%;
+}
+
+div.username
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    padding: 7%;
+    padding-top: 50%;
+    padding-left: 30%;
+}
+
+span.active
+{
+    color:rgb(190, 22, 22);
+    font-size: 80%;
+}
+
+div.tasks
+{
+    position: absolute;
+    top: 18%;
+    height: flex;
+    min-height: 2%;
+    width: 15%;
+    padding: 2%;
+    background-color: rgba(145, 145, 145, 0.877);
+    color: #0062B1;
+    padding-left: 5%;
+    text-align: left;
+    float: left;
+}
+
+p.tasks-title
+{
+    font-size: 1.3em;
+    position: absolute;
+    top: 16%;
+}
+div.tasks:hover
+{
+    background-color: rgba(119, 118, 118, 0.877);
+    transition: 0.7s;
+}
+
+p.taskbar-title
+{
+    position: absolute;
+    left: 24%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 2em;
+    display:block;
+
+}
+
+div.tasks-elements
+{
+    position: absolute;
+    top: 28%;
+    height: flex;
+    min-height: 2%;
+    width: 15%;
+    padding: 2%;
+    background-color: rgba(235, 233, 233, 0.877);
+    padding-left: 5%;
+    color: black;
+    font-weight: bold;
+}
+
+div.tasks-elements:hover
+{
+    color: #0062B1;
+    transition: 0.6s;
+}
+
+div.taskbar
+{
+    position: relative;
+    display: none;
+    top: -10%;
+    left: 110%;
+    background-color: rgba(235, 233, 233, 0.877);
+    color: rgb(0, 0, 0);
+    min-width: 110%;
+    width: flex;
+    height: flex;
+    padding: 5%;
+    padding-right: 13%;
+    border-radius: 1%;
+    align-items: center;
+    margin-top: 8em;
+}
+
+
+#ok-icon
+{
+    position: absolute;
+    height: 50%;
+    left: 10%;
+    top: 25%;
+}
+
+div.day
+{
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-left: 5%;
+    float: left;
+}
+
+input.addToday
+{
+    position: relative;
+    display: none;
+    left: 105%;
+    height: 30px;
+    bottom: 30px;
+    text-align: center;
+}
+
+.addTodayButton
+{
+    position: absolute;
+    display: none;
+    left: 168%;
+    height: 20px;
+    bottom:82%;
+}
+
+.closeIt1
+{
+    position: absolute;
+    display: none;
+    left: 188%;
+    height: 20px;
+    bottom:82%;
+}
+
+input.addTomorrow
+{
+    position: relative;
+    display: block;
+    left: 105%;
+    height: 30px;
+    bottom: 30px;
+    text-align: center;
+}
+
+.addTomorrowButton
+{
+    position: absolute;
+    display: block;
+    left: 168%;
+    height: 20px;
+    bottom:34%;
+}
+
+.closeIt2
+{
+    position: absolute;
+    display: block;
+    left: 188%;
+    height: 20px;
+    bottom:34%;
+}
+
+div.addBTN
+{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 3em;
+    margin-left: 90%;
+    color: rgb(73, 73, 73);
+    
+}
+
+div.addBTN:hover
+{
+    font-size: 3.4em;
+    transition: 0.4s;
+}
+
+div.addBTN2
+{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 3em;
+    margin-left: 90%;
+    color: rgb(119, 119, 119);
+}
+
+div.addBTN2:hover
+{
+    font-size: 3.4em;
+    transition: 0.4s;
+}
+
+div.counter
+{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    border: 2px solid rgb(71, 71, 71);
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    width: 10%;
+    text-align: center;
+    border-radius: 30%;
+
+}
+
+div.completeBTN
+{
+    background-image: url("images/check-icon-before1.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    float: left;
+}
+
+div.completeBTN:active
+{
+    background-image: url("images/check-icon-after1.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 3%;
+    margin-bottom: -3%;
+}
+
+div.delBTN
+{
+    margin-right: 1em;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+
+div.delBTN:hover
+{
+    margin-right: 1em;
+    margin-left: 0.5em;
+    font-size: 1.3em;
+}
+
+div.list-element
+{
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+}
